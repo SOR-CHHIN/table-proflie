@@ -1,0 +1,80 @@
+body{
+    background-color: #85c1e9;
+}
+img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 0.5rem;
+    
+}
+table,th,td{
+    margin: auto;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 5%;
+    font-size: large;
+    overflow: hidden;
+    border: none;
+    
+    
+   
+}
+table{
+    width: 80%;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+th{
+    background-color:#f4f6f7  ;
+    
+}
+
+tbody tr:nth-child(even){
+    background-color:#f4f6f7  ;
+}
+tbody tr:nth-child(odd){
+    background-color:#fff  ;
+}
+.delivered{
+    background-color: #58d68d;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    width:70%;
+    color: #13492a ;
+    font-size: 17px;
+}
+.cancelled{
+    background-color: #e97063;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    width:70%;
+    color: #851306 ;
+    font-size: 17px;
+}
+.shipped{
+    background-color: #5dade2 ;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    width:70%;
+    color: #082c44 ;
+    font-size: 17px;
+}
+.pending{
+    background-color:#f4d03f  ;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    width:70%;
+    color: #745f0e  ;
+    font-size: 17px;
+}
